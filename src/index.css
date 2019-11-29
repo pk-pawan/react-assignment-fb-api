@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+body {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+.alignCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.header .name{
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.fb-nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile{
+    margin: auto;
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.profile div{
+    line-height: 4rem;
+    font-size: 20px;
+}
+
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.albums .name{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.albums .link{
+    padding: 20px;
+    text-align: center;
+}
+
+.albumDetails{
+  margin: 20px;
+}
+
+.albumDetails .name{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.albumDetails .link{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.albumDetails .photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slideshow{
+    width: 800px;
+    margin: 20px auto;
+}
+
+.slideshow .name{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.slideshow .link{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.paddingAll-20px{
+  padding: 20px;
+}
+
+.text-end{
+  text-align: end;
+}
+
+.container {
+    padding: 25px;
+    position: fixed;
+}
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.App {
+  text-align: center;
+}
