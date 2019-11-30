@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import FacebookLogin from 'react-facebook-login';
 import Navbar from './Navbar';
+import {appId} from '../config';
 
 export default class Layout extends Component {
 
@@ -46,7 +47,7 @@ export default class Layout extends Component {
             ) : 
             facebookData = (<div className="alignCenter">
                 <FacebookLogin
-                appId="2477607172522099"
+                appId={appId}
                 autoLoad={true}
                 fields="name,picture"
                 onClick={this.componentClicked}
